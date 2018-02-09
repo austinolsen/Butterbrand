@@ -1,0 +1,14 @@
+ {% extends 'post/layout.html' %}
+
+ {% block content %}
+ <h3 id ="announcements"> {{ title }}</h3>
+<ul class ="">
+	{% for post in post %}
+	<li class =""> <a href="/post/details/{{post.id}}">{{ post.title }} </a> </li>
+	{% endfor %}
+</ul>	
+
+
+
+
+ {% endblock %}
