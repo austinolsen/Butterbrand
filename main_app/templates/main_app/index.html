@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Butterbrand</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{% static 'main_app/style.css' %}" />
+  </head>
+  <body>
+    <header>{% include 'main_app/nav.html'%}</header>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+      <div class="row">
+        <div class="col" id = "banner">
+
+        <img src= "http://butterbrand.net/images/pasted%20image%20201x81.png?crc=189430782" height="80%" width="50%" alt="Butterbrand">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id ="descriptions">
+          <br>
+         <h3><u>NURSARY CHECK IN</u></h3>
+         <p> This application is designed for Butter Brand gardeners to keep a daily record of nursary conditions on a daily basis and give direction to gardeners on how to resolve and inform what to do if any conditions are out of desired range of desired thresholds.</p>
+      </div>
+      <div class="col" id = "bottles">
+         <img src= "http://butterbrand.net/images/img_5185-crop-u1391_2x.png?crc=179140506" height="100%" width="75%" alt="Butterbrand2">
+      </div>
+      <div class="col" id ="loginbox">
+          <br>
+         <h3><u>MEMBER LOG-IN</u></h3>
+      </div>
+    </div>
+  </div>
+
+
+    <footer></footer>
+  </body>
+ </html>
